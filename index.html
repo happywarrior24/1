@@ -3,29 +3,28 @@
 <head>
 <meta charset="UTF-8">
 <title>내 홈페이지</title>
+
 <style>
 body{
-    font-family: Arial;
-    text-align:center;
-    margin-top:100px;
+    margin: 0;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
 }
-button{
-    padding:10px 20px;
+
+.logo{
+    width: 500px;
+    max-width: 80%;
+    margin-top: 80px;
 }
 </style>
+
 </head>
 <body>
 
-<h1>안녕하세요!</h1>
-<p>Cloudflare Pages로 만든 홈페이지입니다.</p>
-
-<button onclick="hello()">클릭</button>
-
-<script>
-function hello(){
-    alert("환영합니다!");
-}
-</script>
+<img src="logo.png" alt="BUILD UP 로고" class="logo">
 
 </body>
 </html>
